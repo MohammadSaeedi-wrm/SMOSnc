@@ -1,6 +1,6 @@
 clear; clc;
 % Define the directory containing the .nc files
-dataDir = 'F:\CODing\SMOSNC';
+dataDir = 'F:\MATLAB\SMOSNC';
 cd(dataDir);
 % List all .nc files in the directory
 ncFiles = dir('*.nc');
